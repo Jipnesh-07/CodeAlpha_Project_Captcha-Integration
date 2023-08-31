@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	background-image: url(https://media.istockphoto.com/id/1485822550/photo/futuristic-cpu-and-question-icon-vibrant-modern-colours-future-technology-background-with.webp?b=1&s=170667a&w=0&k=20&c=kEl-Gn3uDKukGGKRJtOZN93UaC03EIn7auEBgAqKWI8=);
+	background-attachment: fixed;
+	background-size: cover;
+	/* color: #fff; */
+	background-color: rgba(104, 106, 107, 0.7);
+	/* height: 100vh; */
+}
+.heading{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 100px;
+}
+#head1{
+	font-size: 1.8rem;
+	color: rgb(201, 201, 202);
+	/* background-color: rgb(155, 155, 155);
+	 */
+	 transform: scale(1.5);
+	 /* position: relative; */
+}
+#subheading{
+	font-size: 18px;
+	margin-top:  10px;
+	color: rgb(163, 181, 193);
+}
+#content1{
+	width: 90%;
+	margin: auto;
+	color: aliceblue;
+}
+form{
+	background-color: rgba(0, 0, 0, 0.45);
+	padding-top: 34px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 54%;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 10px;
+	padding-bottom: 60px;
+	opacity: 80;
+	/* height: 94.8vh; */
+}
+/* #content1{
+	opacity: 200;
+} */
+form .box{
+	width: 98.5%;
+	height: 2.8rem;
+	position: relative;
+	bottom: 10px;
+	border: 0;
+	border-radius: 5px;
+}
+#option1 select{
+	width: 98.5%;
+	height: 2.7rem;
+	position: relative;
+	bottom: 10px;
+	border: 0;
+	border-radius: 5px;
+}
+#option2 select{
+	width: 98.5%;
+	height: 2.7rem;
+	position: relative;
+	top: 10px;
+	border: 0;
+	border-radius: 5px;
+}
+button{
+	position:relative;
+	top: 25px;
+	color: rgb(30, 46, 59);
+	background-color: rgb(246, 243, 243);
+	height: 40px;
+	width: 50px;
+}
+button:hover{
+	color: black;
+	background-color: aliceblue;
+}
+#btn{
+	margin-left:80%;
+}
+#head2{
+	font-size: 1.8rem;
+	text-align: top;
+	justify-content: center ;
+	color: aliceblue;
+}
+
+#content2{
+	width: 90%;
+	margin: auto;
+	color: aliceblue;
+
+}
+#head3{
+	font-size: 1.8rem;
+	justify-content: center;
+	color: aliceblue;
+}
+#content2 textarea{
+	width: 98.5%;
+	height: 125px;
+	position: relative;
+	bottom: 17px;
+}
+.btn2{
+	width:98.5%;
+	height: 3rem;
+	position: relative;
+	top: 11px;
+	background-color:green;
+	border: none;
+	color:aliceblue;
+	margin: bottom 10px;
+	cursor: pointer;
+}
+.btn3{
+	margin-left: 80%;
+	margin-bottom: 10%;
+}
+textarea:placeholder{
+	font-size: 1.4em;
+	position: relative;
+	top: 8px;
+	left: 5px;
+	width: 70%;
+}
+input:placeholder{
+	font-size: 1.1em;
+	position: relative;
+	left: 10px;
+	width: 50%;
+	font-weight: 500;
+}
+@media screen and (max-width:600px){
+	form{
+		width: 100%;
+		margin: auto;
+	}
+}

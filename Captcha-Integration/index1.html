@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey</title>
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+<body>
+	
+	<div class="heading">
+		<h1 id="head1">Survey Form</h1>
+		<h2 id="subheading">Thank you for taking some time</h2>
+	</div>
+	<form>
+		<div id="content1">
+			<label>Name</label><br><br>
+			<input type="name" name="name" placeholder="Enter Your Name" class="box"><br><br>
+			<label>Email</label><br><br>
+			<input type="email" name="email" placeholder="Enter Your Email" class="box"><br><br>
+			<label>Age(Optional)</label><br><br>
+			<input type="age" name="age" placeholder="Enter Your Age" class="box"><br><br>
+			<label>Which option best describes your current role?</label><br><br>
+		
+		<div id="option1">
+			<select>
+				<option value="Select Your Role">Select Your Role</option>
+				<option value="Student">Student</option>
+				<option value="Intern">Intern</option>
+				<option value="Full Time Learner">Full Time Learner</option>
+				<option value="Full Time Job">Full Time Job</option>
+				<option value="Prefer Not To Say">Prefer Not To Say</option>
+				<option value="Others">Others</option>
+			</select>
+		</div>
+		<!-- </div> -->
+		<!-- <br> -->
+		<br>
+		<label id="head1">Would You Recommend This To Your Friends?</label><br><br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinately<br><br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe<br><br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot Sure<br><br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinately Not<br><br>
+		<label>What is your Favoururite Feature of This Website?</label><br>
+		<div id="option2">
+			<select>
+				<option name="Select an option">Select an option</option>
+				<option name="Interface">Interface</option>
+				<option name="Community">Community</option>
+				<option name="Projects">Projects</option>
+				<option name="Learning">Learning</option>		
+			</select>
+		</div>
+		
+	<button type="submit"><a href="index2.html">Next</a></button>
+	</form>
+
+	<link rel="script" href="script.js">
+</body>
+</html>
